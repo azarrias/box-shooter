@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114908335000163834}
   - component: {fileID: 114833923163327242}
   - component: {fileID: 114788362218992632}
+  - component: {fileID: 95354906576532090}
   m_Layer: 0
   m_Name: TargetBonus
   m_TagString: Untagged
@@ -98,6 +99,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &95354906576532090
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725176478857048}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3069a7110ebaac449891e73f105a945e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114788362218992632
 MonoBehaviour:
   m_ObjectHideFlags: 1
