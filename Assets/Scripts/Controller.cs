@@ -13,7 +13,7 @@ public class Controller : MonoBehaviour {
 	void Start () {
 		// store a reference to the CharacterController component on this gameObject
 		// it is much more efficient to use GetComponent() once in Start and store
-		// the result rather than continually use etComponent() in the Update function
+		// the result rather than continually use GetComponent() in the Update function
 		myController = gameObject.GetComponent<CharacterController>();
 	}
 	
@@ -31,7 +31,7 @@ public class Controller : MonoBehaviour {
 		// Apply gravity (so the object will fall if not grounded)
 		movement.y -= gravity * Time.deltaTime;
 
-		Debug.Log ("Movement Vector = " + movement);
+		//Debug.Log ("Movement Vector = " + movement);
 
 		// Actually move the character controller in the movement direction
 		myController.Move(movement);
